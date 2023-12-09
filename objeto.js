@@ -3,10 +3,10 @@ class animal {
         this.especie = especie;
         this.edad = edad;
         this.color = color;
-        this.info = `Soy un ${this.especie} de ${this.edad} años y de color ${this.color} <br>`
+        this.info = `Soy un ${this.especie} de ${this.edad} años y de color ${this.color}`
     }
     verInfo() {
-        document.write(this.info);
+        document.write(this.info + <br>);
     }
 };
 
