@@ -9,10 +9,10 @@ class animal {
         document.write(this.info + <br>);
     }
     ladrar() {
-        if (this.especie = "perro") {
+        if (this.especie == "perro") {
             documento.write("Wau!" <br>);
         } else {
-            document.write("No puedo ladrar" <br>)
+            document.write(`No puedo ladrar. Soy un ${this.especie}` + <br>)
         };
 };
 
@@ -23,6 +23,7 @@ pajaro = new animal("pajaro", 1, "verde");
 perro.verInfo();
 gato.verInfo();
 pajaro.verInfo();
+    
 perro.ladrar();
 gato.ladrar();
 pajaro.ladrar();
