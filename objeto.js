@@ -39,7 +39,7 @@ class Perro extends Animal {
     }
 }
 const perro = new Perro("perro", 5, "marron","Doguerman");
-const gato = new Animal("gato", 3, "blanco");
+const gato = new Animal("gato",  3, "blanco");
 const pajaro = new Animal("pajaro", 1, "verde");
 
 
